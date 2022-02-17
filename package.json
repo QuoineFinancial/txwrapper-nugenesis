@@ -1,0 +1,27 @@
+{
+  "name": "txwrapper-nugenesis",
+  "version": "1.5.2",
+  "author": "Quoine Financial<anh.cao@quoine.com>",
+  "description": "Helper functions for Nugenesis offline transaction generation.",
+  "license": "Apache-2.0",
+  "main": "lib/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "https://github.com/quoinefinancial/txwrapper-nugenesis",
+  "bugs": "https://github.com/quoinefinancial/txwrapper-nugenesis/issues",
+  "homepage": "https://github.com/quoinefinancial/txwrapper-nugenesis/tree/master#readme",
+  "engine": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "build": "rm -rf ./lib && substrate-exec-tsc -p tsconfig.build.json"
+  },
+  "dependencies": {
+    "@substrate/txwrapper-core": "^1.5.2",
+    "@substrate/txwrapper-substrate": "^1.5.2"
+  },
+  "devDependencies": {
+    "@substrate/dev": "^0.5.7"
+  }
+}
