@@ -15,7 +15,7 @@
     "node": ">=14"
   },
   "scripts": {
-    "postinstall": "substrate-exec-tsc -p tsconfig.build.json",
+    "postinstall": "./node_modules/.bin/substrate-exec-tsc -p tsconfig.build.json",
     "build": "rm -rf ./lib && substrate-exec-tsc -p tsconfig.build.json"
   },
   "dependencies": {
