@@ -35,31 +35,6 @@ export * from '@substrate/txwrapper-core';
  * by `system_properties` call, but since they don't change much, it's pretty safe to hardcode them.
  */
 const KNOWN_CHAIN_PROPERTIES = {
-	kusama: {
-		ss58Format: PolkadotSS58Format.kusama,
-		tokenDecimals: 12,
-		tokenSymbol: 'KSM',
-	},
-	polkadot: {
-		ss58Format: PolkadotSS58Format.polkadot,
-		tokenDecimals: 10,
-		tokenSymbol: 'DOT',
-	},
-	westend: {
-		ss58Format: PolkadotSS58Format.westend,
-		tokenDecimals: 12,
-		tokenSymbol: 'WND',
-	},
-	statemint: {
-		ss58Format: PolkadotSS58Format.polkadot,
-		tokenDecimals: 10,
-		tokenSymbol: 'DOT',
-	},
-	statemine: {
-		ss58Format: PolkadotSS58Format.kusama,
-		tokenDecimals: 12,
-		tokenSymbol: 'KSM',
-	},
 	nucoin: {
 		ss58Format: 42,
 		tokenDecimals: 18,
@@ -93,7 +68,6 @@ export function getRegistry({
 }: GetRegistryOpts): TypeRegistry {
 	// The default type registry has polkadot types
 	const registry = new TypeRegistry();
-	if (specName === 'nucoin') {
 	registry.setKnownTypes({
 		types: {
 			"Address": "AccountId",
