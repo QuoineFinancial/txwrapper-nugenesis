@@ -19,10 +19,8 @@
     "build": "rm -rf ./lib && substrate-exec-tsc -p tsconfig.build.json"
   },
   "dependencies": {
+    "@substrate/dev": "^0.5.7",
     "@substrate/txwrapper-core": "^1.5.2",
     "@substrate/txwrapper-substrate": "^1.5.2"
-  },
-  "devDependencies": {
-    "@substrate/dev": "^0.5.7"
   }
 }
