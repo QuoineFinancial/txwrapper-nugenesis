@@ -3,7 +3,6 @@ import {
 	GetRegistryOptsCore,
 	getSpecTypes,
 	TypeRegistry,
-	PolkadotSS58Format,
 } from '@substrate/txwrapper-core';
 import { methods as substrateMethods } from '@substrate/txwrapper-substrate';
 
