@@ -15,6 +15,7 @@
     "node": ">=14"
   },
   "scripts": {
+    "postinstall": "tsc -p .",
     "build": "rm -rf ./lib && substrate-exec-tsc -p tsconfig.build.json"
   },
   "dependencies": {
@@ -22,7 +23,6 @@
     "@substrate/txwrapper-substrate": "^1.5.2"
   },
   "devDependencies": {
-    "postinstall": "tsc -p .",
     "@substrate/dev": "^0.5.7"
   }
 }
