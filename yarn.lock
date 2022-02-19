@@ -895,7 +895,7 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@substrate/dev@^0.5.7":
+"@substrate/dev@^0.5.6":
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/@substrate/dev/-/dev-0.5.7.tgz#4953994e1bd78987142da51a7b6c221bea2b8d7f"
   integrity sha512-RVN3bCKODhKbUqAzAiBquvHtKItctvrEd+EOP+y8hlfzj4oFlL90macZOpxbYjRFVwkQqTHh1I3hW+2x610inA==
@@ -920,7 +920,7 @@
   resolved "https://registry.yarnpkg.com/@substrate/ss58-registry/-/ss58-registry-1.14.0.tgz#0ad216d3e213a79746959c2c371ec1fdebe4de86"
   integrity sha512-SRZqDyGcImk1Wr2xZo9xp6BeydX0dJk/QJdKPb18oc+tc3OZ8NofuT587TRJsz6qPMCTyNWUNRrqnApgAB/B3g==
 
-"@substrate/txwrapper-core@^1.5.2":
+"@substrate/txwrapper-core@^1.3.1", "@substrate/txwrapper-core@^1.5.2":
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/@substrate/txwrapper-core/-/txwrapper-core-1.5.2.tgz#54025036124a3fcd83db6d10e21980ee8bd34278"
   integrity sha512-2rYrVZv+Uz88IxGUM0KTVhUt07D9eKUQ2l6+6fAQx/IBFVvSjZ0eclmrzkPDC0AT1kcHmBZXyyDs1CMwaopV5Q==
@@ -928,7 +928,7 @@
     "@polkadot/api" "^7.7.1"
     memoizee "0.4.15"
 
-"@substrate/txwrapper-substrate@^1.5.2":
+"@substrate/txwrapper-substrate@^1.3.1":
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/@substrate/txwrapper-substrate/-/txwrapper-substrate-1.5.2.tgz#45a07775454dd9999b534028ed05047e5d35e3e9"
   integrity sha512-+H+edU+wxIK8h9+XivmeNQ1xBrTO/TO3otSs1L7OffC/nypeCcty11hZisw2T16C+XI4akDsAmNQIXPWU5dMDA==
