@@ -62,8 +62,6 @@ export function getRegistry({
 	metadataRpc,
 	properties,
 	asCallsOnlyArg,
-	signedExtensions,
-	userExtensions,
 }: GetRegistryOpts): TypeRegistry {
 	// The default type registry has polkadot types
 	const registry = new TypeRegistry();
@@ -85,7 +83,5 @@ export function getRegistry({
 		),
 		metadataRpc,
 		asCallsOnlyArg,
-		signedExtensions,
-		userExtensions,
 	});
 }
